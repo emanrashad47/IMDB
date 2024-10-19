@@ -1,0 +1,23 @@
+.similar-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-shrink: 0;
+}
+@media (max-width: 990px) {
+  .similar-card{
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 768px) {
+  .similar-card{
+    grid-template-columns: 1fr 1fr;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 576px) {
+  .similar-card{
+    grid-template-columns: 1fr;
+    flex-shrink: 0;
+  }
+}
